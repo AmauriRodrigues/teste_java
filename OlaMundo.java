@@ -1,5 +1,10 @@
 public class OlaMundo{
 	public static void main(String Args[]){
-		System.out.println("Ola Mundo Java");
+		OlaMundo olaMundo = new OlaMundo();
+		olaMundo.falar("Ola Mundo, eu tenho metodo....");
+	}
+	
+	public void falar(String frase){
+		System.out.println(frase);
 	}
 }
